@@ -1,0 +1,91 @@
+.inner-blog-items{
+    margin-top: 120px;
+}
+.inner-blog-img{
+    width: 100%;
+    padding-top: 60%;
+    position: relative;
+}
+.inner-blog-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+.image-bottom button{
+    position: absolute;
+    left: 0;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #4D4D4D;
+    font-size: 14px;
+    font-family: 'Ubuntu-Regular';
+}
+.image-bottom img{
+    margin-right: 10px;
+}
+.image-bottom span{
+    font-family: ubuntu-regular;
+    font-size: 14px;
+    color: #999999;
+    cursor: default;
+}
+.inner-blog-text{
+    margin-top: 10px;
+}
+.inner-blog-text >h2{
+    text-align: center;
+    color: #4D4D4D;
+    font-size: 30px;
+    font-family: 'Ubuntu-Regular';
+    cursor: default;
+}
+.inner-blog-text .inner-text{
+    padding: 20px 215px;
+}
+.inner-blog-text .inner-text >p{
+    font-size: 16px;
+    color: #4D4D4D;
+    font-family: 'Ubuntu-Regular';
+}
+.inner-blog-items .blog-title{
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-family: ubuntu-bold;
+    color: #f5f5f5;
+    text-shadow: -1px -1px 0 #cccccc, 1px -1px 0 #cccccc, -1px 1px 0 #cccccc, 1px 1px 0 #cccccc;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    line-height: 95px;
+    cursor: default;
+}
+.blog-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: #fcb64e;
+  
+}
+.blog-link svg{
+    margin-right: 40px;
+    transition: 0.5s ease;
+}
+.blog-link:hover{
+    color: #fcb64e;
+}
+.blog-link:hover svg {
+    margin-right: 5px;
+    
+}

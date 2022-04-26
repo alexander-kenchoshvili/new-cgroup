@@ -1,0 +1,140 @@
+.offer-section{
+    padding-top: 63px;
+}
+.offer-items{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.horizontal-header{
+    transform: rotate(-90deg) translate(-110px, -280px);
+}
+.horizontal-header span{
+    font-size: 110px;
+    font-family: 'Ubuntu-Bold';
+    color: #f5f5f5;
+    text-shadow: -1px -1px 0 #cccccc, 1px -1px 0 #cccccc, -1px 1px 0 #cccccc, 1px 1px 0 #cccccc;
+    cursor: default;
+}
+.offer-services{
+    padding-left: 150px;
+    transform: translate(-30px, -130px);
+}
+.offer-header{
+    font-size: 70px;
+    font-family: ubuntu-bold;
+    cursor: default;
+}
+.offer-header span{
+    color: #FCB64E;
+}
+.offer-text p{
+    font-family: ubuntu-regular;
+    font-size: 14px;
+    color: #4D4D4D;
+    cursor: default;
+}
+.offer-services .service-link a{
+    color: #fcb64e;
+    text-decoration: none;
+    font-family: ubuntu-bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.offer-services .service-link svg{
+    margin-right: 30px;
+    transition: 0.5s ease-in-out;
+}
+.offer-services .service-link a:hover{
+    text-decoration: underline;
+}
+.offer-services .service-link a:hover svg{
+   margin-right: 5px;
+}
+.service-images{
+    position: relative;
+    min-height: 400px;
+    
+}
+.service-img{
+    padding-top: 57px;
+    object-fit: cover;
+    top: 0;
+    left: 50px;
+    position: absolute;
+    transform: scale(0);
+    opacity:0;
+    transition: 0.5s;
+}
+.service-img.active{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.service-box .left{
+    display: flex;
+    flex-shrink: 0;
+    align-items: baseline;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: ubuntu-bold;
+    transition: 0.5s;
+    cursor: default;
+}
+.service-list{
+    padding-top: 130px;
+}
+.service-box{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.service-box:hover .left {
+    color: #f5f5f5;
+    text-shadow: -1px -1px 0 #fcb64e, 1px -1px 0 #fcb64e, -1px 1px 0 #fcb64e, 1px 1px 0 #fcb64e;
+}
+.service-box:hover .right >h2 {
+    color: #FCB64E;
+}
+.service-box .right h2 {
+    font-size: 16px;
+    font-family: ubuntu-regular;
+    margin: 0;
+    transition: 0.2s;
+    color: #4D4D4D;
+
+}
+.service-box .right{
+    margin-left: 30px;
+    cursor: default;
+    transition: 0.5s;
+    padding-left: 40px;
+}
+.offer-text{
+    display: flex;
+    align-items: baseline;
+}
+.collapse-button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.service-box .text{
+    padding-right: 20px;
+    max-height: 45px;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.service-box .text.show{
+    overflow: visible;
+    max-height: 500px;
+    height: auto;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.service-box .text >p{
+    font-size: 12px;
+    font-family: ubuntu-regular;
+    color: #4D4D4D;
+    margin-top: 10px;
+}

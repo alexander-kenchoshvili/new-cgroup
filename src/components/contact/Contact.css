@@ -1,0 +1,127 @@
+.contact-items{
+    padding-top: 125px;
+}
+.contact-items .title{
+    font-size: 120px;
+    font-family: ubuntu-bold;
+    color: rgb(245, 245, 245);
+    text-shadow: rgb(204 204 204) -1px -1px 0px, rgb(204 204 204) 1px -1px 0px, rgb(204 204 204) -1px 1px 0px, rgb(204 204 204) 1px 1px 0px;
+    margin-bottom: 90px;
+    line-height: 95px;
+    cursor: default;
+}
+.contact-items .left img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.contact-items .right{
+    padding-top: 90px;
+}
+.contact-items .right .info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-items span{
+    display: block;
+    font-size: 18px;
+    color: #FCB64E;
+    font-family: ubuntu-regular;
+    cursor: default;
+}
+.info-items a{
+    color: #4D4D4D;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: ubuntu-regular;
+}
+.right form{
+    margin-top: 60px;
+}
+.input-forms{
+    margin-bottom: 60px;
+    position: relative;
+}
+.input-forms label{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% - 4px));
+    transition: 0.2s;
+}
+.input-forms input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #4D4D4D;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    font-family: ubuntu-regular;
+    transition: 0.5s;
+}
+.input-forms input:hover{
+    border-bottom: 1px solid #FCB64E;
+}
+.input-forms input:focus{
+    border-bottom: 1px solid #FCB64E;
+}
+.input-forms label.active{
+    top: -10px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.form-btn button{
+    display: block;
+    font-size: 14px;
+    font-family: ubuntu-regular;
+    color: #4D4D4D;
+    position: relative;
+    padding-left: 30px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.form-btn button svg{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+.form-btn button:hover{
+    color: #FCB64E;
+}
+.form-btn button path{
+    transition: 0.3s;
+}
+.form-btn button:hover svg{
+    left: 15px;
+}
+.form-btn button:hover path{
+    fill:#FCB64E;
+}
+.input-forms .error-alert{
+    position: absolute;
+    top: -10px;
+    right: 0;
+    color: red;
+    font-family: ubuntu-regular;
+    font-size: 14px;
+}
+.contact-items .right form{
+    position: relative;
+}
+.contact-items .right .register{
+    position: absolute;
+    top: -45px;
+    left: 34%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu-Bold';
+    color: #FCB64E;
+}

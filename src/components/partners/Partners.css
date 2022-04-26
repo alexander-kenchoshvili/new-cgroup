@@ -1,0 +1,36 @@
+.partner-section{
+    padding-top: 150px;
+}
+.partner-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.partner-header{
+    width: 100%;
+    font-size: 80px;
+    font-family: ubuntu-bold;
+    color: #f5f5f5;
+    text-shadow: -1px -1px 0 #cccccc, 1px -1px 0 #cccccc, -1px 1px 0 #cccccc, 1px 1px 0 #cccccc;
+    text-align: center;
+    line-height: 95px;
+    cursor: default;
+    padding-bottom: 40px;
+}
+.partner-items .box{
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px 20px 20px 20px;
+}
+.partner-items .box img{
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.partner-items .box:hover.box img{
+    visibility: visible;
+}

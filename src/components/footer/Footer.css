@@ -1,0 +1,76 @@
+footer{
+    overflow: hidden;
+}
+.footer-section{
+    padding:20px;
+    background-color: white;
+    overflow: hidden;
+
+}
+footer .mail, footer .tel {
+    color: #4D4D4D;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: ubuntu-regular;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.footer-contact a{
+    transition: 0.3s ease-in-out;
+}
+.footer-contact a:hover{
+    color: #fcb64e;;
+}
+footer .reserved {
+    font-size: 14px;
+    font-family: ubuntu-regular;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+}
+
+.footer-follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.footer-follow .header-cap {
+    display: inline-block;
+    position: relative;
+    margin-right: 90px;
+    font-size: 14px;
+    color: #4D4D4D;
+    font-family: ubuntu-regular;
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+.header-cap:hover {
+    color: #fcb64e;
+}
+.footer-follow .header-cap:after {
+    position: absolute;
+    left: calc(100% + 20px);
+    top: 49%;
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    content: ' ';
+}
+.footer-follow a {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-follow a:last-child {
+    margin-right: 10px;
+}
+.footer-follow a path{
+    transition: 0.4s ease-in-out;
+}
+.footer-follow a:hover path{
+    fill: #fcb64e;
+}

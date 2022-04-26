@@ -1,0 +1,46 @@
+.page-change{
+    top: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #FCB64E;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 122;
+    transform-origin: right;
+    transform: translate3d(0px, 0px, 0px) scale(0, 1);
+    transition: all 0.8s;
+    right: 0;
+}
+.page-change.active{
+    animation: anim  1.5s 0s ease;
+}
+.page-change::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    content: ' ';
+    background-color: #242424;
+}
+
+@keyframes anim{
+    0%{
+        
+        transform: translateX(100%);
+    }
+    100%{
+     
+        transform: translateX(-100%);
+    }
+}
+/* დეფაულტი */
+/* transform-origin: right; 0 წამში
+transform: translate3d(0px, 0px, 0px) scale(0, 1); */
+/* შემოსვლა  */
+/* transform: translate3d(0px, 0px, 0px) scale(1, 1); */
+
+/* გასლვა */
+/* transform-origin: left;  0 წამში
+transform: translate3d(0px, 0px, 0px) scale(0, 1); */
